@@ -7,8 +7,8 @@ const gifStages = [
     "https://media.tenor.com/WMhWacfoZWgAAAAj/minipini.gif",       // 5 shake
     "https://c.tenor.com/apWeoyOOvtUAAAAd/tenor.gif",   // 6 devastated
     "https://c.tenor.com/3AkI0IyP0QgAAAAd/tenor.gif",  // 7 daze
-    "https://media.tenor.com/orFLTNidP6YAAAAj/cinnamoroll.gif",  // 7 crying runaway
-     "https://media.tenor.com/orFLTNidP6YAAAAj/cinnamoroll.gif"  // 8 mad
+    "https://media.tenor.com/orFLTNidP6YAAAAj/cinnamoroll.gif",  // 8 crying runaway
+     "https://media.tenor.com/orFLTNidP6YAAAAj/cinnamoroll.gif"  // 9 mad
 
 ]
 
