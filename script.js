@@ -1,21 +1,21 @@
 const gifStages = [
-    "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif",  // 1 confused
-    "https://media.tenor.com/f_rkpJbH1s8AAAAj/somsom1012.gif",             // 2 pleading
-    "https://media.tenor.com/OGY9zdREsVAAAAAj/somsom1012.gif",             // 3 sad
-    "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",       // 4 sadder
-    "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",             // 5 devastated
-    "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://media.tenor.com/rPiWjOBkoO0AAAAj/cinnamoroll-sanrio.gif",    // 0 shatter
+    "https://media.tenor.com/nPZmKB04o_sAAAAj/cinnamoroll.gif",  // 1 waaa
+    "https://media.tenor.com/YU3mvP2PzdsAAAAj/sanrio.gif",             // 2 about to cry
+    "https://media.tenor.com/ggokQeI5AMMAAAAj/sanrio-white.gif",             // 3 cry
+    "https://media.tenor.com/WMhWacfoZWgAAAAj/minipini.gif",       // 4 shake
+    "https://c.tenor.com/apWeoyOOvtUAAAAd/tenor.gif",             // 5 devastated
+    "https://c.tenor.com/3AkI0IyP0QgAAAAd/tenor.gif",               // 6 daze
+    "https://media.tenor.com/orFLTNidP6YAAAAj/cinnamoroll.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
     "No",
-    "Are you positive? 🤔",
-    "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
-    "Please??? 💔",
+    "Le gasp! 😲",
+    "But pro que? 🥺",
+    "If you say no, I will be really sad...😢",
+    "Whhyyyyy? 😭",
+    "Pretty, please??? 💔",
     "Don't do this to me...",
     "Last chance! 😭",
     "You can't catch me anyway 😜"
