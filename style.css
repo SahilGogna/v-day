@@ -204,3 +204,38 @@ h1 {
     width: 260px;
     height: 260px;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .yes-container h1.yes-title {
+        font-size: 2.2rem;
+    }
+
+    #cat-gif {
+        width: 180px;
+        height: 180px;
+    }
+
+    .yes-container #cat-gif {
+        width: 220px;
+        height: 220px;
+    }
+
+    #yes-btn {
+        font-size: 1.4rem;
+        padding: 15px 35px;
+    }
+
+    .yes-message {
+        font-size: 1.2rem;
+        padding: 0 20px;
+    }
+
+    .container {
+        padding: 20px 15px;
+    }
+}

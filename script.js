@@ -48,7 +48,7 @@ music.play().then(() => {
     // Fallback: unmute on first interaction
     document.addEventListener('click', () => {
         music.muted = false
-        music.play().catch(() => {})
+        music.play().catch(() => { })
     }, { once: true })
 })
 
@@ -93,9 +93,13 @@ function handleNoClick() {
 
     // Grow the Yes button bigger each time
     const currentSize = parseFloat(window.getComputedStyle(yesBtn).fontSize)
-    yesBtn.style.fontSize = `${currentSize * 1.35}px`
-    const padY = Math.min(18 + noClickCount * 5, 60)
-    const padX = Math.min(45 + noClickCount * 10, 120)
+    const maxFontSize = window.innerWidth < 600 ? 50 : 100 // Cap font size
+    if (currentSize < maxFontSize) {
+        yesBtn.style.fontSize = `${currentSize * 1.35}px`
+    }
+
+    const padY = Math.min(18 + noClickCount * 5, window.innerWidth < 600 ? 40 : 60)
+    const padX = Math.min(45 + noClickCount * 10, window.innerWidth < 600 ? 80 : 120)
     yesBtn.style.padding = `${padY}px ${padX}px`
 
     // Shrink No button to contrast
