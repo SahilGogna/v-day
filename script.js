@@ -1,5 +1,5 @@
 const gifStages = [
-    "https://media.tenor.com/rPiWjOBkoO0AAAAj/cinnamoroll-sanrio.gif",    // 0 shatter
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt0Pvnp7dri3UZ4MpZEDamiW7VF3MXs3_iSw&s",    // 0 shatter
     "https://media.tenor.com/rPiWjOBkoO0AAAAj/cinnamoroll-sanrio.gif",    // 1 shatter
     "https://media.tenor.com/nPZmKB04o_sAAAAj/cinnamoroll.gif",  // 2 waaa
     "https://media.tenor.com/YU3mvP2PzdsAAAAj/sanrio.gif",  // 3 about to cry
@@ -7,7 +7,6 @@ const gifStages = [
     "https://media.tenor.com/WMhWacfoZWgAAAAj/minipini.gif",       // 5 shake
     "https://c.tenor.com/apWeoyOOvtUAAAAd/tenor.gif",   // 6 devastated
     "https://c.tenor.com/3AkI0IyP0QgAAAAd/tenor.gif",  // 7 daze
-    "https://media.tenor.com/orFLTNidP6YAAAAj/cinnamoroll.gif",  // 8 crying runaway
 ]
 
 const noMessages = [
@@ -109,8 +108,8 @@ function handleNoClick() {
     const gifIndex = Math.min(noClickCount, gifStages.length - 1)
     swapGif(gifStages[gifIndex])
 
-    // Runaway starts at click 8
-    if (noClickCount >= 8 && !runawayEnabled) {
+    // Runaway starts at click 7
+    if (noClickCount >= 7 && !runawayEnabled) {
         enableRunaway()
         runawayEnabled = true
     }
