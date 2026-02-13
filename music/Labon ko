@@ -1,1 +1,3 @@
-git commit -m "C:\Users\ayana\Downloads\labon_ko.mp3"
+git add Labon.mp3.mp3
+git commit -m "Labon.mp3"
+git push origin main
