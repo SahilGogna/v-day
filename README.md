@@ -74,7 +74,7 @@ Want something completely unique? Use AI to build it.
   - Interactive story where they choose their adventure
   - A countdown to Valentine's Day with daily messages
   - A quiz about your relationship
-  - Whatever your heart desires — literally
+  - Whatever your heart des ires — literally
 
 #### 3. Get the Code
 - Antigravity will generate the full HTML, CSS, and JavaScript for you
