@@ -92,7 +92,7 @@ Want something completely unique? Use AI to build it.
 
 ```
 v-day/
-├── index.html       # Main page — "Will you be my Valentine?"
+├── index.html       # Main page — "Meni sevasmi chonm?"
 ├── yes.html         # Celebration page after they say Yes
 ├── script.js        # Main page logic (button growth, GIF swaps, toasts)
 ├── yes-script.js    # Celebration page animations
