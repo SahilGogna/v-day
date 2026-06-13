@@ -11,20 +11,20 @@ const gifStages = [
 
 const noMessages = [
     "No",
-    "Are you positive? 🤔",
+    "Pakhi tumi sure? 🤕",
     "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
+    "Tumi na bolle ami onk koshto pabo... 🫠",
+    "Shotti onek koshto pabo kintu... 😢",
     "Please??? 💔",
-    "Don't do this to me...",
-    "Last chance! 😭",
-    "You can't catch me anyway 😜"
+    "Emon ta koiro na...",
+    "O amar Lady Sarah 😭",
+    "Please janpakhi 🫠🕊️"
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
+    "etto taratari yes boilo na... I bet you want to know what happens 😏",
     "go on, hit no... just once 👀",
-    "you're missing out 😈",
+    "onek boro kichu miss kore felba kintu 🙃",
     "click no, I dare you 😏"
 ]
 
